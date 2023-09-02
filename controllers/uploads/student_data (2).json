@@ -1,0 +1,92 @@
+[
+  {
+    "CRMID": "HM 1",
+    "name": "Prabhjot Khanna",
+    "contact": 9779495808,
+    "email": "prabhgold2000@gmail.com",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  },
+  {
+    "CRMID": "HM2",
+    "name": "Saksham Sharma",
+    "contact": 6239416204,
+    "email": "SAKSHAMS395@gmail.COM",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  },
+  {
+    "CRMID": "HM3",
+    "name": "Anu",
+    "contact": 7740013014,
+    "email": "anurajput1131@gmail.com",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  },
+  {
+    "CRMID": "HM4",
+    "name": "Anisha Kumari",
+    "contact": 6284733750,
+    "email": "anisharajput6260@gmail.com",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  },
+  {
+    "CRMID": "HM5",
+    "name": "Diksha Sharma",
+    "contact": 8091708929,
+    "email": "sdiksha032001@gmail.com",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  },
+  {
+    "CRMID": "HM6",
+    "name": "Arshdeep kaur",
+    "contact": 8571074298,
+    "email": "karshdeep977@gmail.com",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  },
+  {
+    "CRMID": "HM7",
+    "name": "Sangeeta Rani",
+    "contact": 9779882115,
+    "email": "bhagatsangeeta36@gmail.com",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  },
+  {
+    "CRMID": "HM8",
+    "name": "NIKHIL",
+    "contact": 7973031138,
+    "email": "nikhilbatta79@gmail.com",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  },
+  {
+    "CRMID": "HM9",
+    "name": "Simrandeep Kaur",
+    "contact": 7710696172,
+    "email": "simrandeepk235@gmail.com",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  },
+  {
+    "CRMID": "HM10",
+    "name": "Yashwinder Singh",
+    "contact": 9877629964,
+    "email": "yashwinder08@gmail.com ",
+    "batch": "A1",
+    "course": "FSD",
+    "startdate": "1 march,2023"
+  }
+]
