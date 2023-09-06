@@ -18,7 +18,7 @@ const StudentDataRoute= require('./Routes/StudentData.js');
 //static folder path
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000'
+    origin: 'http://www.studentpanel.hopingminds.tech/'
     
 }));
 // app.use(cors());
