@@ -10,7 +10,7 @@ const mongoURI = process.env.MONGO_URL;
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'http://www.studentpanel.hopingminds.tech/',
   credentials: true,
 }));
 app.use(express.json());

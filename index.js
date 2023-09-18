@@ -9,7 +9,7 @@ const app = express();
 const MONGODB_URI = process.env.MONGO_URL;
 // Enable CORS
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'http://www.studentpanel.hopingminds.tech/',
   credentials: true,
 }));
 
