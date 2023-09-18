@@ -409,7 +409,7 @@ const importUser = async (req, res, category) => {
                               Date: jsonData[i].Date,
                               TECHcorrect: jsonData[i].TECHcorrect,
                               TECHincorrect: jsonData[i].TECHincorrect,
-                              TECHSkipped: jsonData[i].TECHskipped,
+                              TECHSkipped: jsonData[i].TECHSkipped,
                               TECHTotalTimeTaken:jsonData[i].TECHTotalTimeTaken,
                               TotalTECHquestions:jsonData[i].TotalTECHquestions,
                               TechClassesAttend:jsonData[i].TechClassesAttend,

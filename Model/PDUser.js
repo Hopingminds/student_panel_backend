@@ -4,20 +4,20 @@ const pdUserSchema = new mongoose.Schema({
   studentId:{type:mongoose.Schema.Types.ObjectId,required:true,ref:'StudentData'},
   email: String,
   Rank: Number,
-  Pd: Number,
+  PD: Number,
   PDMax: Number,
   PDcorrect: Number,
   PDincorrect: Number,
   PdSkipped: Number,
   PDTotalTimeTaken: String,
   PDTimeDuration: Number,
-  Totalpdquestion: Number,
-  PDTotalclasses: Number,
-  PDClassesAttented: Number,
+  Totalpdquestions: Number,
+  PDTotalAttend: Number,
+  PDClassesAttend: Number,
   Testshared: Number,
-  Testattempted: Number,
+  testattempted: Number,
   PD_Prec: Number,
-  date:Date
+  Date:Date
 });
 
 module.exports = mongoose.model('PDUser', pdUserSchema);

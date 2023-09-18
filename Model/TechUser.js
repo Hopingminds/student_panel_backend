@@ -11,11 +11,11 @@ const techUserSchema = new mongoose.Schema({
   TECHSkipped: Number,
   TECHTotalTimeTaken: String,
   TECHTimeDuration: Number,
-  TotalTECHquestion: Number,
-  TECHTotalclasses: Number,
-  TECHTotalAttented: Number,
+  TotalTECHquestions: Number,
+  TECHClassesAttend: Number,
+  TECHTotalAttend: Number,
   Testshared: Number,
-  Testattempted: Number,
+  testattempted: Number,
   TECH_Prec: Number,
   Date:Date
 });
