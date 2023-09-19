@@ -9,8 +9,9 @@ const app = express();
 const MONGODB_URI = process.env.MONGO_URL;
 // Enable CORS
 app.use(cors({
-  origin: 'http://www.studentpanel.hopingminds.tech/',
   credentials: true,
+  origin: 'http://www.studentpanel.hopingminds.tech/'
+  
 }));
 
 // Connect to MongoDB
