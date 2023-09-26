@@ -8,11 +8,16 @@ dotenv.config();
 const app = express();
 const MONGODB_URI = process.env.MONGO_URL;
 // Enable CORS
+// app.use(cors({
+//   credentials: true,
+//   origin: 'http://www.studentpanel.hopingminds.tech/'
+  
+// }));
+
 app.use(cors({
   credentials: true,
-  origin: 'http://www.studentpanel.hopingminds.tech/'
-  
-}));
+  origin: 'http://localhost:3000'
+}))
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI, {
