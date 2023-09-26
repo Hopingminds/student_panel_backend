@@ -55,7 +55,7 @@ const app = express();
 // Enable CORS
 app.use(cors({
   credentials: true,
-  origin: 'http://www.studentpanel.hopingminds.tech/'
+  origin: 'https://www.studentpanel.hopingminds.tech/'
 }));
 
 // app.use(cors({
