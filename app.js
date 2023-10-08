@@ -53,10 +53,13 @@ const fileRoutes = require('./Routes/fileRoutes');
 const app = express();
 
 // Enable CORS
-app.use(cors({
-  credentials: true,
-  origin: 'https://studentpanel.hopingminds.tech/'
-}));
+const corsOptions = {
+  origin: 'https://studentpanel.hopingminds.tech', // Adjust to match your React app's domain
+  credentials: true, // Enable credentials (cookies, HTTP authentication)
+};
+
+app.use(cors(corsOptions));
+app.disable('x-powered-by')
 
 // app.use(cors({
 //     credentials: true,
