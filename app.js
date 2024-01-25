@@ -54,7 +54,8 @@ const app = express();
 
 // Enable CORS
 const corsOptions = {
-  origin: 'https://studentpanel.hopingminds.tech', // Adjust to match your React app's domain
+  // origin: 'https://studentpanel.hopingminds.tech',
+  origin: 'http://localhost:3000', // Adjust to match your React app's domain
   credentials: true, // Enable credentials (cookies, HTTP authentication)
 };
 
